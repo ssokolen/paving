@@ -37,7 +37,7 @@ filldraw(shift(6, 0)*unitcircle, pattern("herringbone"));
 filldraw(shift(8, 0)*unitcircle, pattern("basket_weave"));
 filldraw(shift(2, -2)*unitcircle, pattern("basket_weave_stack_bond"));
 filldraw(shift(4, -2)*unitcircle, pattern("basket_weave_variation"));
-filldraw(shift(6, -2)*unitcircle
+filldraw(shift(6, -2)*unitcircle, pattern("flagstone"));
 
 ```
 
