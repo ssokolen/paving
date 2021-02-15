@@ -62,7 +62,7 @@ The arguments are:
 
 This function is meant to generate pdfs but it also outputs picture for editing.
 */
-architects_page("herringbone", 1/4, "1/4", 8);
+architects_page("herringbone", 3/8, "3/8", 8);
 ```
 
 with the following result:
