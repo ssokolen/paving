@@ -49,16 +49,19 @@ Single pattern templates can be generated using the function `architect_page`:
 
 ```asymptote
 
-% The arguments are:
-% 1. pattern string
-% 2. scale in inches (to feet), e.g., 1/4 transates to 1/4'' on page is 1' in life
-% 3. string for scale label -- "1/4" looks better than the default of str(scale)
-% 4. width of brick (or flagstone) in real-life inches -- 8'' is the default
-% 5. width of border brick -- 8'' is the default
-% 6. margin width (modified slight to ensure border fits without trimming)
-% 7. shipout -- default is to generate pdf, but can be set to false
-% 8. pen
-% This function is meant to generate pdfs but it also outputs picture for editing.
+/*
+The arguments are:
+1. pattern string
+2. scale in inches (to feet), e.g., 1/4 transates to 1/4'' on page is 1' in life
+3. string for scale label -- "1/4" looks better than the default of str(scale)
+4. width of brick (or flagstone) in real-life inches -- 8'' is the default
+5. width of border brick -- 8'' is the default
+6. margin width (modified slight to ensure border fits without trimming)
+7. shipout -- default is to generate pdf, but can be set to false
+8. pen
+
+This function is meant to generate pdfs but it also outputs picture for editing.
+*/
 architects_page("herringbone", 1/4, "1/4", 8);
 ```
 
