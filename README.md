@@ -88,3 +88,5 @@ string[] scale_strings = {"1/4", "3/8"};
 architects_pages(brick_patterns, scales, scale_strings, 8);
 architects_pages(flagstone_patterns, scales, scale_strings, 12);
 ```
+
+Templates for three common scales have been pre-generated and are available in the templates folder.
